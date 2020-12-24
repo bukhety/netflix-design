@@ -1,0 +1,151 @@
+body{
+    background-image: url(/theimage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+   background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  font-weight: bold;
+   color: white;
+}
+ 
+
+
+ 
+  
+li{
+  display: inline-flex;
+  flex-wrap: wrap;
+  
+}
+.ournav{
+    color: red;
+    font-size: 30px;
+    font-style: oblique;
+    position: relative;
+    
+       
+}
+.ourul{
+  margin-top: auto;
+  padding: 5px;
+  
+}
+button{
+  background-color: red;
+  color: white;
+}
+#bbutton{
+  text-transform: uppercase;
+  padding: 15px 60px 15px 62px;
+  font-size: 1.5rem;
+  margin-left: -4px;
+  border-style: none;
+  border-left-style: solid;
+
+}
+#submita {
+margin-left: 1000px;
+
+
+}
+#submita1 {
+  padding: 10px;
+  border-radius: 6px;
+  border-style: none;
+}
+.ourul h1{
+  margin-left: 30px;
+  margin-top: -4px;
+  
+}
+
+  
+#inputer{
+  padding: 23px 150px 16px 150px;
+  margin-right: -2px;
+  
+}
+.firstdiv{
+  text-align: center;
+  padding-top: 40px;
+ font-size: 23px;
+}
+  @media only screen and (max-width: 600px) {
+    #submita {
+      margin-left: 90%;
+    
+    }
+    li{
+      display: inline-flex;
+      flex-wrap: wrap;
+     
+     
+  }
+  .ourul{
+    margin-top: auto;
+  }
+  .ourul h1{
+   
+    margin-top: -4px;
+  }
+  }
+  @media only screen and (min-width: 601px) and (max-width: 767px){
+
+    #submita {
+      margin-left: 90%;
+    
+    }
+    li{
+      display: inline-flex;
+      flex-wrap: wrap;
+     
+     
+  }
+  .ourul{
+    margin-top: auto;
+  }
+  .ourul h1{
+    
+    margin-top: -4px;
+  }
+}
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+
+    #submita {
+      margin-left: 90%;
+    
+    }
+    li{
+      display: inline-flex;
+      flex-wrap: wrap;
+     
+     
+  }
+  .ourul{
+    margin-top: auto;
+  }
+  .ourul h1{
+    
+    margin-top: -4px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+  #submita {
+    margin-left: 90%;
+  
+  }
+  li{
+    display: inline-flex;
+    flex-wrap: wrap;
+   
+   
+}
+.ourul{
+  margin-top: auto;
+}
+.ourul h1{
+  
+  margin-top: -4px;
+}
+}
